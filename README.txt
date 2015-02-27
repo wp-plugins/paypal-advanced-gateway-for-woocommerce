@@ -1,6 +1,6 @@
 === Paypal Advanced Gateway For WooCommerce ===
 Contributors: jigneshkailam
-Tags:  admin, checkout, e-commerce, limits, maximum, price, pricing, purchase, shop, store, wp e-commerce, incremental product quantities, max, min, product maximum values, product minimum values, product quantities, product step values, woocommerce
+Tags: WooCommerce, PayPal Payment GateWay, PayPal Advance, PayPal Advance Payment GateWay, PayPal Button, PayPal Shopping Cart, PayPal Checkout, PayPal Advance Payment Checkout, Easy PayPal, PayPal Payment, PayPal Method, PayPal Easy Direct Checkout, PayPal Button, Button
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: trunk
