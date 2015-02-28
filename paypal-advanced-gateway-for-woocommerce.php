@@ -3,16 +3,16 @@
 /**
  *
  * @wordpress-plugin
- * Plugin Name:       PayPal Advanced Gateway For WooCommerce
- * Plugin URI:        http://www.mbjtechnolabs.com
- * Description:       Keep customers on your site for the entire checkout process without the full burden of protecting their financial data.
- * Version:           1.0.0
- * Author:            phpwebcreators
- * Author URI:        http://www.mbjtechnolabs.com
- * License:           GNU General Public License v3.0
- * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       paypal-advanced-gateway-for-woocommerce
- * Domain Path:       /languages
+ * Plugin Name:	PayPal Advanced Gateway For WooCommerce
+ * Plugin URI:	http://www.mbjtechnolabs.com
+ * Description:	Keep customers on your site for the entire checkout process without the full burden of protecting their financial data.
+ * Version:		1.0.0
+ * Author:      phpwebcreators
+ * Author URI:	http://www.mbjtechnolabs.com
+ * License:     GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: paypal-advanced-gateway-for-woocommerce
+ * Domain Path: /languages
  */
 
 // If this file is called directly, abort.
