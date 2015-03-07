@@ -13,6 +13,8 @@ Keep customers on your site for the entire checkout process without the full bur
  
 [Read more about PayPal Advanced Payment](https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/)
 
+'Currently only supports the USA and Canada.'
+
 Keep customers on your site for the entire checkout process without the full burden of protecting their financial data. In addition to a merchant account and gateway in one, PayPal provides you with a secure checkout template to integrate within your website. Your customers won't know that we're processing their payment, making your business look more secure and professional.
 
 = More payment choice means more sales. =
@@ -21,6 +23,13 @@ Keep customers on your site for the entire checkout process without the full bur
 *	Set-up is a snap and processing fees are low. Start selling online in just minutes with PayPal.
 *	Join the most successful online retailers who add PayPal to streamline checkout and boost sales.
 *	PayPal invests millions to keep customer information safe and fraud rates extremely low.
+
+= Key Features and Benefits =
+*	Low cost
+*	Seamless integration
+*	Easier PCI compliance
+*	Combines Merchant Account and Payment Gateway
+
 
 = Set-up is a snap = 
 *	Paypal Advanced Gateway For WooCommerce Plugin makes it faster and easier to add PayPal to your site.
@@ -70,6 +79,10 @@ Easy steps to install the plugin:
 *	Activate the plugin through the 'Plugins' menu in WordPress.
 
 
+== Frequently Asked Questions ==
+*	Do I need an SSL Certificate?
+*	Having an SSL certificate is not required for this extension. It is, however, recommended that you use an SSL certificate, if you or your visitors receive “mixed content” warnings in your web browser. It also adds an extra layer of security.
+*	More info about SSL certificates and HTTPS at [SSL and HTTPS guide](http://docs.woothemes.com/document/ssl-and-https/)
 == Changelog ==
 
 *	Release Date - 27 Feb, 1015
