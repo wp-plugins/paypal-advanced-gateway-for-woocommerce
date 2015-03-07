@@ -11,7 +11,8 @@ Keep customers on your site for the entire checkout process without the full bur
 == Description ==
 = Introduction =
  
-[Read more about PayPal Advanced Payment] (https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/)
+[Read more about PayPal Advanced Payment](https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/)
+
 Keep customers on your site for the entire checkout process without the full burden of protecting their financial data. In addition to a merchant account and gateway in one, PayPal provides you with a secure checkout template to integrate within your website. Your customers won't know that we're processing their payment, making your business look more secure and professional.
 
 = More payment choice means more sales. =
