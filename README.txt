@@ -78,6 +78,9 @@ Easy steps to install the plugin:
 *	Upload paypal-advanced-gateway-for-woocommerce folder/directory to the /wp-content/plugins/ directory
 *	Activate the plugin through the 'Plugins' menu in WordPress.
 
+== Screenshots ==
+
+1. Setting up PayPal Advanced GateWay
 
 == Frequently Asked Questions ==
 *	Do I need an SSL Certificate?
