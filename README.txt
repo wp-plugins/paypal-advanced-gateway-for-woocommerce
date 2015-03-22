@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Keep customers on your site for the entire checkout process without the full burden of protecting their financial data.
+Paypal Advanced Gateway For WooCommerce Developed by an Certified PayPal Developer, official PayPal Partner.
 == Description ==
 = Introduction =
  

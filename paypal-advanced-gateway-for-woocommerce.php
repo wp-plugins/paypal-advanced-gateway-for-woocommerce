@@ -5,7 +5,7 @@
  * @wordpress-plugin
  * Plugin Name:	PayPal Advanced Gateway For WooCommerce
  * Plugin URI:	http://www.mbjtechnolabs.com
- * Description:	Keep customers on your site for the entire checkout process without the full burden of protecting their financial data.
+ * Description:	Paypal Advanced Gateway For WooCommerce Developed by an Certified PayPal Developer, official PayPal Partner.
  * Version:		1.0.0
  * Author:      phpwebcreators
  * Author URI:	http://www.mbjtechnolabs.com
