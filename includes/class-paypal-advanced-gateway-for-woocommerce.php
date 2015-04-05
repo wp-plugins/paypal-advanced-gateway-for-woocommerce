@@ -50,7 +50,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce {
     public function __construct() {
 
         $this->plugin_name = 'paypal-advanced-gateway-for-woocommerce';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
 
         $this->load_dependencies();
         $this->set_locale();
@@ -127,6 +127,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce {
         $this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
         $this->loader->add_action('plugins_loaded', $plugin_admin, 'load_plugin_extend_lib');
         $this->loader->add_filter('woocommerce_payment_gateways', $plugin_admin, 'paypal_advanced_gateway_for_woocommerce_add_gateway', 10, 1);
+        $this->loader->add_filter('woocommerce_paypal_args', $plugin_admin, 'paypal_advanced_gateway_for_woocommerce_standard_parameters', 99, 1);
     }
 
     /**

@@ -547,19 +547,19 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display extends WC_Payment_G
             'resellerid' => array(
                 'title' => __('Partner', 'paypal_advanced_gateway_for_woocommerce'),
                 'type' => 'text',
-                'description' => __('Enter your PayPal Payments Advanced Partner. If you purchased the account directly from PayPal, use PayPal.', 'paypal_advanced_gateway_for_woocommerce'),
+                'description' => __('Enter your PayPal Payments Partner. If you purchased the account directly from PayPal, use PayPal.', 'paypal_advanced_gateway_for_woocommerce'),
                 'default' => ''
             ),
             'user' => array(
                 'title' => __('User (or Merchant Login if no designated user is set up for the account)', 'paypal_advanced_gateway_for_woocommerce'),
                 'type' => 'text',
-                'description' => __('Enter your PayPal Payments Advanced user account for this site.', 'paypal_advanced_gateway_for_woocommerce'),
+                'description' => __('Enter your PayPal Payments user account for this site.', 'paypal_advanced_gateway_for_woocommerce'),
                 'default' => ''
             ),
             'password' => array(
                 'title' => __('Password', 'paypal_advanced_gateway_for_woocommerce'),
                 'type' => 'password',
-                'description' => __('Enter your PayPal Payments Advanced account password.', 'paypal_advanced_gateway_for_woocommerce'),
+                'description' => __('Enter your PayPal Payments account password.', 'paypal_advanced_gateway_for_woocommerce'),
                 'default' => ''
             ),
             'transtype' => array(

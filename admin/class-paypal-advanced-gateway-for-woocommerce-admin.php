@@ -99,5 +99,10 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin {
         $methods[] = 'PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display';
         return $methods;
     }
+    
+    public function paypal_advanced_gateway_for_woocommerce_standard_parameters($paypal_args) {
+        $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        return $paypal_args;
+    }
 
 }
