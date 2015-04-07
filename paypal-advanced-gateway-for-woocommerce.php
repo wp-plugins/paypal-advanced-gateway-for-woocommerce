@@ -7,7 +7,7 @@
  * Plugin URI:	http://www.mbjtechnolabs.com
  * Description:	Paypal Advanced Gateway For WooCommerce Developed by an Certified PayPal Developer, official PayPal Partner.
  * Version:	1.0.1
- * Author:      phpwebcreators
+ * Author:      mbjtechnolabs
  * Author URI:	http://www.mbjtechnolabs.com
  * License:     GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
