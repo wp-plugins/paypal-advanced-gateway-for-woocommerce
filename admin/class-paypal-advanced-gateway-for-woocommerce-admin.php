@@ -89,9 +89,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin {
             return;
 
         require_once plugin_dir_path(dirname(__FILE__)) . 'admin/partials/paypal-advanced-gateway-for-woocommerce-admin-display.php';
-
-        PayPal_Advanced_Gateway_For_WooCommerce_Compatibility::check_version();
-        
+       
     }
 
     public function paypal_advanced_gateway_for_woocommerce_add_gateway($methods) {
