@@ -50,7 +50,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce {
     public function __construct() {
 
         $this->plugin_name = 'paypal-advanced-gateway-for-woocommerce';
-        $this->version = '1.0.1';
+        $this->version = '1.0.3';
 
         $this->load_dependencies();
         $this->set_locale();

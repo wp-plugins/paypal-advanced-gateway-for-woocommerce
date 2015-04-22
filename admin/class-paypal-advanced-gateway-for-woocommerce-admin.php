@@ -88,11 +88,10 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin {
         if (!class_exists('WC_Payment_Gateway'))
             return;
 
-        require_once plugin_dir_path(dirname(__FILE__)) . 'admin/partials/paypal-advanced-gateway-for-woocommerce-admin-compatibility.php';
         require_once plugin_dir_path(dirname(__FILE__)) . 'admin/partials/paypal-advanced-gateway-for-woocommerce-admin-display.php';
 
         PayPal_Advanced_Gateway_For_WooCommerce_Compatibility::check_version();
-        //require_once plugin_dir_path(dirname(__FILE__)) . 'admin/partials/class-paypal-advanced-gateway-for-woocommerce-admin-lib.php';
+        
     }
 
     public function paypal_advanced_gateway_for_woocommerce_add_gateway($methods) {
