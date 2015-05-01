@@ -11,7 +11,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display extends WC_Payment_G
 
     public function __construct() {
         // Necessary Properties
-        $this->id = 'paypal_payments_advanced';
+        $this->id = 'paypal_advanced';
         $this->icon = apply_filters('woocommerce_paypal_advanced_icon', '');
         $this->has_fields = true;
         $this->home_url = is_ssl() ? home_url('/', 'https') : home_url('/'); //set the urls (cancel or return) based on SSL
@@ -548,18 +548,18 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display extends WC_Payment_G
         <h3><?php _e('PayPal Advanced', 'paypal-advanced-gateway-for-woocommerce'); ?></h3>
         <p><?php _e('PayPal Payments Advanced uses an iframe to seamlessly integrate PayPal hosted pages into the checkout process.', 'paypal-advanced-gateway-for-woocommerce'); ?></p>
         <table class="form-table">
-            <?php
-            //if user's currency is USD
-            if (!in_array(get_woocommerce_currency(), array('USD', 'CAD'))) {
-                ?>
-                <div class="inline error"><p><strong><?php _e('Gateway Disabled', 'paypal-advanced-gateway-for-woocommerce'); ?></strong>: <?php _e('PayPal does not support your store currency.', 'paypal-advanced-gateway-for-woocommerce'); ?></p></div>
-                <?php
-                return;
-            } else {
-                // Generate the HTML For the settings form.
-                $this->generate_settings_html();
-            }
+        <?php
+        //if user's currency is USD
+        if (!in_array(get_woocommerce_currency(), array('USD', 'CAD'))) {
             ?>
+                <div class="inline error"><p><strong><?php _e('Gateway Disabled', 'paypal-advanced-gateway-for-woocommerce'); ?></strong>: <?php _e('PayPal does not support your store currency.', 'paypal-advanced-gateway-for-woocommerce'); ?></p></div>
+            <?php
+            return;
+        } else {
+            // Generate the HTML For the settings form.
+            $this->generate_settings_html();
+        }
+        ?>
         </table><!--/.form-table-->
         <?php
     }

@@ -1,3 +1,3 @@
- jQuery(document).ready(function($) {
-        $('.paypal_advanced_gateway_for_woocommerce_color_field').wpColorPicker();
-    });
+jQuery(document).ready(function($){
+    $('.paypal-advanced-gateway-for-woocommerce_color_field').wpColorPicker();
+});

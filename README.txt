@@ -2,7 +2,7 @@
 Contributors: johnwickjigo
 Tags: dodirectpayment, express checkout, payflow, payments pro, paypal, WooCommerce, PayPal Payment GateWay, PayPal Advance, PayPal Advance Payment GateWay, PayPal Button, PayPal Shopping Cart, PayPal Checkout, PayPal Advance Payment Checkout, Easy PayPal, PayPal Payment, PayPal Method, PayPal Easy Direct Checkout, PayPal Button, Button
 Requires at least: 3.0.1
-Tested up to: 4.1.1
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -87,7 +87,10 @@ Easy steps to install the plugin:
 *	Having an SSL certificate is not required for this extension. It is, however, recommended that you use an SSL certificate, if you or your visitors receive “mixed content” warnings in your web browser. It also adds an extra layer of security.
 *	More info about SSL certificates and HTTPS at [SSL and HTTPS guide](http://docs.woothemes.com/document/ssl-and-https/)
 == Changelog ==
-
+= 1.2.0 =
+*       1/5/2015 ( 1.2.0 )
+*       Compatible with WordPress 4.2.1 and WooCommerce 2.3.8 version  
+= 1.0.0 =
 *	Release Date - 27 Feb, 1015
 *  	First Version
 
