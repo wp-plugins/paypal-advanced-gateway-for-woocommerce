@@ -81,16 +81,16 @@ Easy steps to install the plugin:
 
 Signing up for PayPal Advanced
 
-*       [US]https://registration.paypal.com/onboardingPage.do?bundleType=C2&country=US&partner=PayPal
-*       [CA]https://registration.paypal.com/onboardingPage.do?partner=PayPalCA&bundleType=C2&country=CA
+*       [US](https://registration.paypal.com/onboardingPage.do?bundleType=C2&country=US&partner=PayPal)
+*       [CA](https://registration.paypal.com/onboardingPage.do?partner=PayPalCA&bundleType=C2&country=CA)
 
 Signing up for a Test Account
 
-*       If you do not have a live PayPal Payments Advanced account, you can use the Test account by follow the steps mentioned at: Testing with the Payflow gateway[https://ppmts.custhelp.com/app/answers/detail/a_id/929/].
+*       If you do not have a live PayPal Payments Advanced account, you can use the Test account by follow the steps mentioned at: [Testing with the Payflow gateway](https://ppmts.custhelp.com/app/answers/detail/a_id/929/).
 
 WooCommerce Configuration
 
-*       Enter settings to match those set in your PayPal Advanced account, either Authorization or Sale (sometimes referred to as Authorize & Capture).
+*       Enter settings to match those set in your PayPal Advanced account, either Authorization or Sale (sometimes referred to as Authorize & Capture)
     
         *   If you have it set to Authorization, the payment will be authorized but not completed. You need to manually Capture.
         *   If it is set to Sale, it will also capture the payment. This is the usual/recommended setting
@@ -106,19 +106,36 @@ WooCommerce Configuration
 
 == Frequently Asked Questions ==
 *	Do I need an SSL Certificate?
+
         *	Having an SSL certificate is not required for this extension. It is, however, recommended that you use an SSL certificate, if you or your visitors receive “mixed content” warnings in your web browser. It also adds an extra layer of security.
+
+
 *	More info about SSL certificates and HTTPS at [SSL and HTTPS guide](http://docs.woothemes.com/document/ssl-and-https/)
 
+
 *       Do I need a Payflow account?
+
         *       No, The necessary account is included at no additional charge. When you sign up for a PayPal Payments Advanced account, it also walks you through creating the appropriate Payflow account credentials you need.
+
+
 *       Why does selecting PayPal or Bill Me Later direct offsite?
+
         *       This is normal. When a user selects either “Bill Me later” and “PayPal” to pay, they are taken offsite to complete payment. After payment is completed, the user is redirected to the site.
+
+
 *       Is PayPal currently a US-only service?
+
         *       People around the world can make purchases using PayPal Payments Advanced. The exception is the Bill Me Later payment method, which is only supported for U.S. buyers.
+
+
 *       I am getting 'User Authentication Denied' errors during checkout, what do I do?
+
         *       You need to contact PayPal tech support. Your account may have been set up incorrectly
+
+
 *       Not showing CSC/CVV field on payment page, what do I do?
         *       Under Billing Information, find Make these fields required and check the box next to CSC. Do the same for Make these fields editable.
+
 
 == Changelog ==
 * 1.3.0 =
