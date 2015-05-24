@@ -6,7 +6,7 @@
  * Plugin Name:	PayPal Advanced Gateway For WooCommerce
  * Plugin URI:	http://webs-spider.com/
  * Description:	Paypal Advanced Gateway For WooCommerce Developed by an Certified PayPal Developer, official PayPal Partner.
- * Version:	1.2.0
+ * Version:	1.3.0
  * Author:      johnwickjigo
  * Author URI:	http://www.mbjtechnolabs.com
  * License:     GNU General Public License v3.0
