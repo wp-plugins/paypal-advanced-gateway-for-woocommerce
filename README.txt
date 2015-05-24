@@ -79,19 +79,18 @@ Easy steps to install the plugin:
 *	Activate the plugin through the 'Plugins' menu in WordPress.
 *       Go to: WooCommerce > Settings > Checkout > PayPal Advanced  to configure the plugin.
 
-Signing up for PayPal Advanced
+= Signing up for PayPal Advanced =
 
 *       [US](https://registration.paypal.com/onboardingPage.do?bundleType=C2&country=US&partner=PayPal)
 *       [CA](https://registration.paypal.com/onboardingPage.do?partner=PayPalCA&bundleType=C2&country=CA)
 
-Signing up for a Test Account
+= Signing up for a Test Account =
 
 *       If you do not have a live PayPal Payments Advanced account, you can use the Test account by follow the steps mentioned at: [Testing with the Payflow gateway](https://ppmts.custhelp.com/app/answers/detail/a_id/929/).
 
-WooCommerce Configuration
+= WooCommerce Configuration =
 
 *       Enter settings to match those set in your PayPal Advanced account, either Authorization or Sale (sometimes referred to as Authorize & Capture)
-    
         *   If you have it set to Authorization, the payment will be authorized but not completed. You need to manually Capture.
         *   If it is set to Sale, it will also capture the payment. This is the usual/recommended setting
 
