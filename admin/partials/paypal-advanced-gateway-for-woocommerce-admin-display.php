@@ -244,7 +244,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display extends WC_Payment_G
 				'ORIGID'                           => $_POST['PNREF'],
 				'TENDER'                           => 'C',
 				'TRXTYPE'                          => 'I',
-				'BUTTONSOURCE'                     => 'WooThemes_Cart'
+				'BUTTONSOURCE'                     => 'mbjtechnolabs_SP'
 			);
 
 			$postData = ''; //stores the post data string
@@ -349,7 +349,7 @@ class PayPal_Advanced_Gateway_For_WooCommerce_Admin_Display extends WC_Payment_G
 			'SHIPTOCITY['.strlen($order->shipping_city).']'  => $order->shipping_city,
 			'SHIPTOZIP'   => $order->shipping_postcode,
 			'SHIPTOCOUNTRY['.strlen($order->shipping_country).']' => $order->shipping_country,
-			'BUTTONSOURCE' => 'WooThemes_Cart',
+			'BUTTONSOURCE' => 'mbjtechnolabs_SP',
 			'RETURNURL['.strlen($this->relay_response_url).']' => $this->relay_response_url,
 			'ERRORURL['.strlen($this->relay_response_url).']' => $this->relay_response_url,
 			'SILENTPOSTURL['.strlen($this->relay_response_url).']' => $this->relay_response_url,
