@@ -90,7 +90,7 @@ Easy steps to install the plugin:
 
 = WooCommerce Configuration =
 
-*       Enter settings to match those set in your PayPal Advanced account, either Authorization or Sale (sometimes referred to as Authorize & Capture)
+*       Enter settings to match those set in your PayPal Advanced account, either Authorization or Sale (sometimes referred to as Authorize & Capture).
 
         *   If you have it set to Authorization, the payment will be authorized but not completed. You need to manually Capture.
         *   If it is set to Sale, it will also capture the payment. This is the usual/recommended setting
