@@ -11,6 +11,8 @@ Paypal Advanced Gateway For WooCommerce Developed by an Certified PayPal Develop
 == Description ==
 = Introduction =
  
+Need help? Contact me at: phpwebcreators@gmail.com any time :)
+ 
 [Read more about PayPal Advanced Payment](https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/)
 
 'Currently only supports the USA and Canada.'
